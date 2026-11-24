@@ -182,3 +182,34 @@
     border-right-color: var(--border);
   }
 }
+
+.login-jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100svh;
+  padding: 24px 16px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: min(400px, calc(100% - 32px));
+  padding: 20px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 8px;
+}
+.login-card {
+  display: flex;
+  flex-direction: column;
+  place-items:center;
+}
+.image { 
+  margin: 10px;
+}
