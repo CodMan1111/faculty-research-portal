@@ -213,3 +213,20 @@
 .image { 
   margin: 10px;
 }
+.forgot-form { 
+  display: flex;
+  flex-direction: column;
+  width: min(400px, calc(100% - 32px));
+  padding: 20px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 8px;
+}
+.forgot-card {
+  display: flex;
+  flex-direction: column;
+  place-items:center;
+}
+.btn { 
+  margin: 10px;
+}
