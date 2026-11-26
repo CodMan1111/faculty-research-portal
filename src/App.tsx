@@ -6,6 +6,7 @@ import './App.css'
 import ForgotPassword from './forgot-password'
 import Login from './login'
 import CreateAccount from './create-account'
+import UpdatePassword from './update-password'
 import {Routes, Route} from 'react-router'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Route path="/login" element={<Login/>}> </Route> 
     <Route path="/forgot-password" element={<ForgotPassword/>}/>
     <Route path="/create-account" element={<CreateAccount/>}/>
+    <Route path="/update-password" element={<UpdatePassword />} />
   </Routes>
   )
   /*switch (window.location.pathname){
