@@ -8,6 +8,7 @@ import Login from './login'
 import CreateAccount from './create-account'
 import UpdatePassword from './update-password'
 import {Routes, Route} from 'react-router'
+import ProtectedRoute from './protected-routes'
 
 function App() {
   const [count, setCount] = useState(0)
